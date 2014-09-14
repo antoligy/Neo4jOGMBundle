@@ -7,7 +7,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
-class Neo4jExtension extends Extension {
+class Neo4jOGMExtension extends Extension {
 
 
 	public function load(array $configs, ContainerBuilder $container) {
@@ -15,7 +15,6 @@ class Neo4jExtension extends Extension {
 		$config = $this->processConfiguration($configuration, $configs);
 
 		$conf = $this->remapParametersNamespaces($config);
-
 		foreach($conf as $key => $value) {
 			$container->setParameter($key, $value);
 		}
@@ -28,7 +27,6 @@ class Neo4jExtension extends Extension {
 	public function getConfigNamespace() {
 		return 'neo4j';
 	}
-
 
 	public function remapParametersNamespaces(array $config = array()) {
 		$conf = array();
