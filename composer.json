@@ -11,6 +11,7 @@
 	],
 	"require": {
 		"php": ">=5.3.3",
+		"everyman/neo4jphp":"dev-master",
 		"hirevoice/neo4jphp-ogm": "dev-master"
 	},
 	"autoload": {
