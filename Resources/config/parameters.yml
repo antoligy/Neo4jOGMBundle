@@ -1,0 +1,3 @@
+parameters:
+    neo4j.graph_manager.class: antoligy\Neo4jOGMBundle\GraphManager\GraphManager
+    neo4j.proxy_dir: %kernel.cache_dir%/doctrine/neo4j/Proxies

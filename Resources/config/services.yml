@@ -1,0 +1,7 @@
+services:
+    neo4j.graph_manager:
+        class: %neo4j.graph_manager.class%
+        arguments:
+            - %neo4j.host%
+            - %neo4j.port%
+            - %neo4j.proxy_dir%

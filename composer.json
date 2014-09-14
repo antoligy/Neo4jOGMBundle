@@ -1,0 +1,20 @@
+{
+	"name": "antoligy/neo4j-ogm-bundle",
+	"description": "A Symfony bundle for using the Neo4j graphing database in your projects.",
+	"keywords": ["neo4j"],
+	"license": "ISC",
+	"authors": [
+		{
+			"name": "Alex Wilson",
+			"homepage": "http://antoligy.com/"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"hirevoice/neo4jphp-ogm": "dev-master"
+	},
+	"autoload": {
+		"psr-0": { "antoligy\\Neo4jOGMBundle": "" }
+	},
+	"target-dir": "antoligy/Neo4jOGMBundle"
+}
