@@ -12,7 +12,7 @@
 	"require": {
 		"php": ">=5.3.3",
 		"everyman/neo4jphp":"dev-master#0b8c6b6",
-		"hirevoice/neo4jphp-ogm": "0.6.0"
+		"hirevoice/neo4jphp-ogm": "dev-master#7538984"
 	},
 	"autoload": {
 		"psr-0": { "antoligy\\Neo4jOGMBundle": "" }
